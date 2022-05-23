@@ -200,7 +200,7 @@ class travel:
         Tops = Frame(MainFrame, bd=20, width=1350,relief=RIDGE)
         Tops.pack(side=TOP,fill=BOTH,expand=True)
 
-        self.lblTitle=Label(Tops,font=('arial',70,'bold'),text=" Taxi Booking System in LPU ")
+        self.lblTitle=Label(Tops,font=('arial',70,'bold'),text=" Blue Bird Taxi Booking ")
         self.lblTitle.grid()
 
         CustomerDetailsFrame=LabelFrame(MainFrame, width=1350,height=500,bd=20, pady=5, relief=RIDGE)
@@ -303,4 +303,3 @@ if __name__=='__main__':
     application = user(root)
     root.mainloop()
     
-
